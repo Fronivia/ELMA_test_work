@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"noEmit": false,
+		"allowUmdGlobalAccess": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"alwaysStrict": true,
+		"forceConsistentCasingInFileNames": true,
+		"experimentalDecorators": true,
+		"noImplicitAny": true,
+		"exactOptionalPropertyTypes": true,
+		"strictNullChecks": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"removeComments": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"isolatedModules": true,
+		"incremental": true,
+		"useDefineForClassFields": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"strictPropertyInitialization": false,
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"include": ["src", "webpack"],
+	"exclude": ["node_modules"]
+}
