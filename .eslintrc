@@ -15,10 +15,7 @@
 		"import/no-unresolved": 0,
 		"import/extensions": 0,
 		"import/prefer-default-export": 0,
-		"import/no-extraneous-dependencies": [
-			"error",
-			{ "devDependencies": true }
-		],
+		"import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
 		"no-shadow": "off",
 		"@typescript-eslint/no-shadow": 0,
 		"no-unused-vars": "off",
@@ -51,6 +48,7 @@
 		"react/no-unused-class-component-methods": 0,
 		"react/destructuring-assignment": 0,
 		"operator-assignment": 0,
-		"quotes": ["error", "single"]
+		"quotes": ["error", "single"],
+		"@typescript-eslint/no-explicit-any": 0
 	}
 }

@@ -2,8 +2,7 @@ import * as path from 'path';
 
 import { getModule, getPlugins } from './utils';
 
-const root = (absolutePath: string) =>
-	path.resolve(__dirname, `../${absolutePath}`);
+const root = (absolutePath: string) => path.resolve(__dirname, `../${absolutePath}`);
 
 export default {
 	mode: 'development',
@@ -30,6 +29,7 @@ export default {
 	resolve: {
 		alias: {
 			'@': root('src/'),
+			'@assets': root('src/assets/'),
 		},
 		extensions: ['.ts', '.js', '.json'],
 	},

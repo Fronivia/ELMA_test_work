@@ -12,6 +12,5 @@ export function getPlugins() {
 			extensions: ['.js', '.ts'],
 			exclude: 'node_modules',
 		}),
-
 	];
 }

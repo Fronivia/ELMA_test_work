@@ -1,0 +1,25 @@
+@import './src/style.consts';
+
+.navbar {
+  width: 100%;
+  height: $navbar-height;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__button {
+  width: 100px;
+  height: 50px;
+
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+
+  font-family: 'Encode Sans Expanded';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}

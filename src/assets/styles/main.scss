@@ -1,0 +1,32 @@
+@import './src/style.consts';
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: hidden;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.main {
+	width: 75%;
+	height: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+@media (max-width: 900px) {
+	.main {
+		width: 100%;
+	}
+}

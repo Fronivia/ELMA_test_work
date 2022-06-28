@@ -1,3 +1,5 @@
-import test from '@/core/App/App';
+import App from '@/components/App/App';
+import { Feact } from '@/core/Feact/Feact';
+import '@assets/styles/main.scss';
 
-test();
+Feact.render(Feact.createElement(App, null), document.getElementById('root')!);

@@ -30,8 +30,10 @@
 		"resolveJsonModule": true,
 		"sourceMap": true,
 		"strictPropertyInitialization": false,
+		//		"suppressImplicitAnyIndexErrors": true,
 		"paths": {
-			"@/*": ["./src/*"]
+			"@/*": ["./src/*"],
+			"@assets/*": ["./src/assets/*"]
 		}
 	},
 	"include": ["src", "webpack"],
